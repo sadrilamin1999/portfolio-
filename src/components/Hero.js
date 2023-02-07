@@ -2,8 +2,8 @@ import React, { useRef } from "react";
 import { useHoverEffect } from "../hooks/useHoverEffect";
 
 const data = {
-  img1: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675329950/Passport_size_pic_umiyix.jpg",
-  img2: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675329950/3_kcoiii.png",
+  img1: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675787880/portfolio/curious-bearded-male-keeps-hands-together-looks-with-intriguing-expression-has-dark-hair-gestures-indoor-isolated-white-wall-people-facial-expressions-lifestyle-concept_ig9rxr.jpg",
+  img2: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675787880/portfolio/image-hesitant-unshaven-european-man-with-thick-beard-holds-chin-purses-lips-with-clueless-expressions_lhsulr.jpg",
 };
 
 const Hero = () => {

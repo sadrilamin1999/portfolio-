@@ -1,6 +1,4 @@
-// import { useRef } from "react";
 import SectionTitle from "./SectionTitle";
-// import { useSkillLineReveal, useSkillTextReveal } from "../hooks/gsap";
 
 const data = [
   { id: 1, title: "HTML" },
@@ -18,16 +16,6 @@ const data = [
 ];
 
 const Skills = () => {
-  /*  const skillItemRef = useRef([]);
-  const skillItem2Ref = useRef([]);
-  const skillTextRef = useRef([]);
-  const skillText2Ref = useRef([]);
-
-  useSkillLineReveal(skillItemRef.current);
-  useSkillLineReveal(skillItem2Ref.current);
-  useSkillTextReveal(skillTextRef.current);
-  useSkillTextReveal(skillText2Ref.current); */
-
   return (
     <div className="skills container mx-auto mt-40" id="skills">
       <SectionTitle title={"Skills"} />
