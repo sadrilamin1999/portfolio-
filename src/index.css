@@ -123,3 +123,9 @@ body {
   bottom: -40%;
   right: -20%;
 }
+.section-title {
+  font-family: "Cosi Azure", sans-serif;
+  font-size: 10rem;
+  line-height: 1;
+  text-transform: uppercase;
+}
