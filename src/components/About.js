@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { useHoverEffect } from "../hooks/useHoverEffect";
 import SectionTitle from "./SectionTitle";
-
+import { useProjectLeftRightReveal } from "../hooks/gsap";
 const data = {
   img1: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675787328/portfolio/photo-attractive-bearded-young-man-with-cherful-expression-makes-okay-gesture-with-both-hands-likes-something-dressed-red-casual-t-shirt-poses-against-white-wall-gestures-indoor_onzkha.jpg",
   img2: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675787328/portfolio/photo-handsome-dark-haired-young-man-holds-document-reads-information-has-opened-notebook-studies-graphhic-diagrams-wears-casual-clothes-drinks-aromatic-coffee-poses-cozy-cafe_iqlmdd.jpg",
@@ -9,6 +9,10 @@ const data = {
 
 const About = () => {
   const aboutLeftRef = useRef(null);
+  const aboutRightRef = useRef(null);
+
+  const abouts = [aboutLeftRef, aboutRightRef];
+  useProjectLeftRightReveal(abouts);
   useHoverEffect(aboutLeftRef, data.img1, data.img2);
   return (
     <div className="about container mx-auto mt-40" id="about">
@@ -16,7 +20,7 @@ const About = () => {
 
       <div className="about-wraper mt-40 grid grid-cols-2 gap-20 overflow-hidden">
         <div className="about-left" ref={aboutLeftRef}></div>
-        <div className="about-right">
+        <div className="about-right" ref={aboutRightRef}>
           <p>
             I am a MERN stack developer with a strong focus on React, Redux, and
             Tailwind CSS. I specialize in building responsive and user-friendly

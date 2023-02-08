@@ -1,9 +1,12 @@
-import React from "react";
-
+import { useRef } from "react";
+import { useBioReveal } from "../hooks/gsap";
 const Boi = () => {
+  const bioRef = useRef(null);
+
+  useBioReveal(bioRef, 2);
   return (
     <div className="bio container mx-auto mt-20 overflow-hidden">
-      <p>
+      <p ref={bioRef}>
         I am a talented front-end developer with a passion for creating
         beautiful and user-friendly websites. With a strong understanding of
         HTML, CSS, JavaScript, and front-end frameworks such as React and Redux,

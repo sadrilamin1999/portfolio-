@@ -1,6 +1,22 @@
 import SectionTitle from "./SectionTitle";
+import { useRef } from "react";
+import { useFromControlReveal } from "../hooks/gsap";
 
 const Contact = () => {
+  const formControle1Ref = useRef();
+  const formControle2Ref = useRef();
+  const formControle3Ref = useRef();
+  const formControle4Ref = useRef();
+
+  const formRefs = [
+    formControle1Ref,
+    formControle2Ref,
+    formControle3Ref,
+    formControle4Ref,
+  ];
+
+  useFromControlReveal(formRefs);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -14,7 +30,7 @@ const Contact = () => {
       <SectionTitle title={"Contact"} />
 
       <form onSubmit={sendEmail} className="mt-40 grid grid-cols-2 gap-20">
-        <div className="from-control overflow-hidden">
+        <div className="from-control overflow-hidden" ref={formControle1Ref}>
           <input
             type="text"
             placeholder="Write your name"
@@ -23,7 +39,7 @@ const Contact = () => {
             className="fullname bg-transparent border py-16 px-28 rounded-full border-white/20 outline-none focus:border-cyan-400 duration-500 w-full"
           />
         </div>
-        <div className="from-control overflow-hidden">
+        <div className="from-control overflow-hidden" ref={formControle2Ref}>
           <input
             type="email"
             placeholder="Write your email"
@@ -32,7 +48,7 @@ const Contact = () => {
             className="email bg-transparent border py-16 px-28 rounded-full border-white/20 outline-none focus:border-cyan-400 duration-500 w-full"
           />
         </div>
-        <div className="from-control overflow-hidden">
+        <div className="from-control overflow-hidden" ref={formControle3Ref}>
           <textarea
             placeholder="Write your message"
             name="message"
@@ -42,7 +58,7 @@ const Contact = () => {
             className="message bg-transparent border py-16 px-28 rounded-full border-white/20 outline-none focus:border-cyan-400 duration-500 w-full resize-none"
           />
         </div>
-        <div className="from-control overflow-hidden">
+        <div className="from-control overflow-hidden" ref={formControle4Ref}>
           <input
             type="submit"
             value="Send message"

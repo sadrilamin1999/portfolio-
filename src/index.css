@@ -12,6 +12,28 @@
   --color-dark: #050505;
   --color-light: #f7f7f7;
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 10%;
+  background-color: rgba(247, 247, 247, 0.5);
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-light);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-dark);
+}
+
+::selection {
+  background-color: #22d3ee;
+  color: var(--color-dark);
+}
 *,
 *::after,
 *::before {
