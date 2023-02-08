@@ -3,8 +3,8 @@ import { useHoverEffect } from "../hooks/useHoverEffect";
 import SectionTitle from "./SectionTitle";
 import { useProjectLeftRightReveal } from "../hooks/gsap";
 const data = {
-  img1: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675787328/portfolio/photo-attractive-bearded-young-man-with-cherful-expression-makes-okay-gesture-with-both-hands-likes-something-dressed-red-casual-t-shirt-poses-against-white-wall-gestures-indoor_onzkha.jpg",
-  img2: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675787328/portfolio/photo-handsome-dark-haired-young-man-holds-document-reads-information-has-opened-notebook-studies-graphhic-diagrams-wears-casual-clothes-drinks-aromatic-coffee-poses-cozy-cafe_iqlmdd.jpg",
+  img1: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675854663/portfolio/41663734_299141474203509_907470566091390976_n-removebg-preview_jrjzlt.png",
+  img2: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675854663/portfolio/01762632731-removebg-preview_m8frww.png",
 };
 
 const About = () => {

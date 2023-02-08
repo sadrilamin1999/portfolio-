@@ -3,8 +3,8 @@ import { useHoverEffect } from "../hooks/useHoverEffect";
 import { useHeadlineReveal, useImageReveal } from "../hooks/gsap";
 
 const data = {
-  img1: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675787880/portfolio/curious-bearded-male-keeps-hands-together-looks-with-intriguing-expression-has-dark-hair-gestures-indoor-isolated-white-wall-people-facial-expressions-lifestyle-concept_ig9rxr.jpg",
-  img2: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675787880/portfolio/image-hesitant-unshaven-european-man-with-thick-beard-holds-chin-purses-lips-with-clueless-expressions_lhsulr.jpg",
+  img1: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675854663/portfolio/3-removebg-preview_qxlva5.png",
+  img2: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675854663/portfolio/Passport_size_pic-removebg-preview_ges4ni.png",
 };
 
 const Hero = () => {
