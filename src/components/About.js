@@ -22,7 +22,7 @@ const About = () => {
         <div className="about-left" ref={aboutLeftRef}></div>
         <div className="about-right" ref={aboutRightRef}>
           <p>
-            I am a MERN stack developer with a strong focus on React, Redux, and
+            I am a React developer with a strong focus on React, Redux, and
             Tailwind CSS. I specialize in building responsive and user-friendly
             web applications that provide a seamless experience for the
             end-user. With my in-depth knowledge of the latest web development
@@ -32,7 +32,7 @@ const About = () => {
             high-quality work that exceeds expectations.
           </p>
           <p className="mt-10">
-            In addition to my expertise in the MERN stack, I also have a strong
+            In addition to my expertise in the React, I also have a strong
             background in UI design and animation. I am skilled in using the
             GreenSock Animation Platform (GSAP) library to create dynamic and
             engaging user interfaces. I have experience in creating smooth
