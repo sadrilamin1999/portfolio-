@@ -18,8 +18,8 @@ const About = () => {
     <div className="about container mx-auto mt-40" id="about">
       <SectionTitle title={"About"} />
 
-      <div className="about-wraper mt-40 grid grid-cols-2 gap-20 overflow-hidden">
-        <div className="about-left" ref={aboutLeftRef}></div>
+      <div className="about-wraper mt-40 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2  gap-20 overflow-hidden">
+        <div className="about-left sm:mx-auto" ref={aboutLeftRef}></div>
         <div className="about-right" ref={aboutRightRef}>
           <p>
             I am a MERN stack developer with a strong focus on React, Redux, and

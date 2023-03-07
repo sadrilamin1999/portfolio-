@@ -51,7 +51,7 @@ const Contact = () => {
 
       <form
         onSubmit={sendEmail}
-        className="mt-40 grid grid-cols-2 gap-20 overflow-hidden"
+        className="mt-40 grid sm:grid-cols-1 xl:grid-cols-2 gap-20 overflow-hidden"
         ref={formRef}
       >
         <div className="from-control overflow-hidden" ref={formControle1Ref}>
