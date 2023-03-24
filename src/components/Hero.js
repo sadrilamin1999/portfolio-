@@ -19,7 +19,10 @@ const Hero = () => {
   useHeadlineReveal(headlines, 1.5);
   return (
     <div className="hero container mx-auto mt-20 flex justify-center items-center overflow-hidden">
-      <div className="hero-img" ref={heroImgRef}></div>
+      <div
+        className="hero-img rounded-3xl saturate-[130%]"
+        ref={heroImgRef}
+      ></div>
       <div className="shutter shutter-left overflow-hidden">
         <h1 ref={heroHeadline1Ref}>Reactjs</h1>
       </div>
