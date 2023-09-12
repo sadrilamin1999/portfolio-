@@ -41,7 +41,7 @@ const About = () => {
             and Figma to create wireframes and mockups.
           </p>
           <a
-            href="https://docs.google.com/document/d/10Ej65c7e3nHzH3aQrF9wwHQCMk0eWkdm5n-UnrNNxvA/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1z1BAJv5xQIMM6akUyCD7QZBminvggauH/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="inline-block mt-10 uppercase py-8 px-14 border border-white/20 rounded-full hover:bg-cyan-400/20 hover:border-cyan-400/20 duration-500"
