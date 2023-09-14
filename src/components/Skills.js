@@ -15,6 +15,10 @@ const data = [
   { id: 10, title: "Axios" },
   { id: 11, title: "GSAP" },
   { id: 12, title: "Firebase" },
+  { id: 13, title: "TypeScript" },
+  { id: 14, title: "Next.js" },
+  { id: 15, title: "Node.js" },
+  { id: 16, title: "MongoDB" },
 ];
 
 const Skills = () => {

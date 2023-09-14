@@ -3,7 +3,7 @@ import { useHoverEffect } from "../hooks/useHoverEffect";
 import SectionTitle from "./SectionTitle";
 import { useProjectLeftRightReveal } from "../hooks/gsap";
 const data = {
-  img1: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675854663/portfolio/41663734_299141474203509_907470566091390976_n-removebg-preview_jrjzlt.png",
+  img1: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675854663/portfolio/3-removebg-preview_qxlva5.png",
   img2: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675854663/portfolio/01762632731-removebg-preview_m8frww.png",
 };
 
