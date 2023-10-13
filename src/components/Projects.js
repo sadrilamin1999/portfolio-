@@ -23,14 +23,26 @@ const data = [
   },
   {
     id: 2,
-    title: "Web Security website",
-    img1: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675856607/portfolio/tera-gurd_snktla.png",
-    img2: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1675856803/portfolio/tera-gurd2_ltylfr.png",
+    title: "Recipe Application",
+    img1: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1697228330/Screenshot_1_q8edqj.png",
+    img2: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1697228545/Screenshot_2_gpurk3.png",
     description:
-      "This is security web project built using javaScript for state management & CSS for styling. The project features a sleek and responsive design, robust tab component functionality, and seamless integration with data management.",
-    tools: ["HTML", "CSS", "javaScript"],
-    liveLink: "https://sadrilamin1999.github.io/Tera_guard/",
-    frontEndLink: "https://github.com/sadrilamin1999/Tera_guard",
+      "Foodverse is a recipe application blends React, Redux, and Tailwind CSS for an exceptional online shopping experience, featuring dynamic UIs, efficient state management, and sleek design. It caters to both users and administrators, offering a seamless, visually stunning platform.",
+    tools: ["HTML", "Tailwind-CSS", "React"],
+    liveLink: "https://sadrilamin-foodverse.netlify.app/",
+    frontEndLink: "https://github.com/sadrilamin1999/foodverse",
+    backEndLink: "",
+  },
+  {
+    id: 3,
+    title: "90's Kid Memories Application",
+    img1: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1697229188/Screenshot_3_td5qx2.png",
+    img2: "https://res.cloudinary.com/dmuohnr8q/image/upload/v1697229303/Screenshot_4_btk4vv.png",
+    description:
+      "Immemorial: An elegant web application built with React, React Router, and Tailwind CSS for a timeless and immersive user experience.",
+    tools: ["HTML", "Tailwind-CSS", "React"],
+    liveLink: "https://sadrilamin-immemorila.netlify.app/",
+    frontEndLink: "https://github.com/sadrilamin1999/immemorial",
     backEndLink: "",
   },
 ];
