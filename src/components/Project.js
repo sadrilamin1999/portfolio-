@@ -16,10 +16,10 @@ const Project = ({ project }) => {
         className="project-left xl:col-span-3 flex flex-col gap-10"
         ref={projectLeftRef}
       >
-        <span className="text-9xl text-white/20">
+        <span className="text-4xl md:text-9xl text-white/20">
           {String(project.id).padStart(2, 0)}
         </span>
-        <h3 className="text-5xl uppercase leading-relaxed text-cyan-400">
+        <h3 className="text-3xl md:text-5xl uppercase leading-relaxed text-cyan-400">
           {project.title}
         </h3>
         <p className="text-white/75">{project.description}</p>
@@ -33,7 +33,7 @@ const Project = ({ project }) => {
             href={project.liveLink}
             target="_blank"
             rel="noreferrer"
-            className="upercase py-8 px-14 border border-white/20 rounded-full hover:bg-cyan-400/20 hover:border-cyan-400/20 duration-500"
+            className="upercase py-4 md:py-8 px-7 md:px-14 border border-white/20 rounded-full hover:bg-cyan-400/20 hover:border-cyan-400/20 duration-500"
           >
             Live Site
           </a>
@@ -41,7 +41,7 @@ const Project = ({ project }) => {
             href={project.frontEndLink}
             target="_blank"
             rel="noreferrer"
-            className="upercase py-8 px-14 border border-white/20 rounded-full hover:bg-cyan-400/20 hover:border-cyan-400/20 duration-500"
+            className="upercase py-4 md:py-8 px-7 md:px-14 border border-white/20 rounded-full hover:bg-cyan-400/20 hover:border-cyan-400/20 duration-500"
           >
             Front-end Code
           </a>

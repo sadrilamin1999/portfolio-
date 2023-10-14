@@ -24,10 +24,14 @@ const Hero = () => {
         ref={heroImgRef}
       ></div>
       <div className="shutter shutter-left overflow-hidden">
-        <h1 ref={heroHeadline1Ref}>Reactjs</h1>
+        <h1 ref={heroHeadline1Ref} className="text-[5rem] md:text-[10rem]">
+          Reactjs
+        </h1>
       </div>
       <div className="shutter shutter-right overflow-hidden">
-        <h1 ref={heroHeadline2Ref}>Developer</h1>
+        <h1 ref={heroHeadline2Ref} className="text-[5rem] md:text-[10rem]">
+          Developer
+        </h1>
       </div>
       <div className="circle-left"></div>
       <div className="circle-right"></div>

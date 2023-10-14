@@ -16,7 +16,7 @@ const App = () => {
   useSmoothScroll();
   useCustomCursor(innerCursorRef, outerCursorRef);
   return (
-    <div className="app sm:px-20 lg:px-25">
+    <div className="app px-5 md:px-20 lg:px-25">
       <div className="noise"></div>
       <CustomCursor
         innerCursorRef={innerCursorRef}
